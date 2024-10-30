@@ -1,0 +1,484 @@
+[
+    {
+        "name": "wp-content-framework/cache",
+        "version": "v0.0.14",
+        "version_normalized": "0.0.14.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wp-content-framework/cache.git",
+            "reference": "4be84fde18ed0e9cbb755f75240f537c5755cc4b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/wp-content-framework/cache/zipball/4be84fde18ed0e9cbb755f75240f537c5755cc4b",
+            "reference": "4be84fde18ed0e9cbb755f75240f537c5755cc4b",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6.0"
+        },
+        "require-dev": {
+            "phake/phake": "~2.0",
+            "phpunit/phpunit": "~5.7"
+        },
+        "time": "2019-06-02T18:27:50+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "technote",
+                "email": "technote.space@gmail.com",
+                "homepage": "https://technote.space"
+            }
+        ],
+        "description": "Wordpress content framework",
+        "homepage": "https://github.com/wp-content-framework",
+        "keywords": [
+            "framework",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "wp-content-framework/core",
+        "version": "v0.0.59",
+        "version_normalized": "0.0.59.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wp-content-framework/core.git",
+            "reference": "6ef103afacd3cc8f8178476cd50b26f85042b08e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/wp-content-framework/core/zipball/6ef103afacd3cc8f8178476cd50b26f85042b08e",
+            "reference": "6ef103afacd3cc8f8178476cd50b26f85042b08e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6.0",
+            "wp-content-framework/cache": "~0.0.1",
+            "wp-content-framework/common": "~0.0.1"
+        },
+        "require-dev": {
+            "phake/phake": "~2.0",
+            "phpunit/phpunit": "~5.7"
+        },
+        "time": "2019-06-18T09:27:40+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "autoload.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "technote",
+                "email": "technote.space@gmail.com",
+                "homepage": "https://technote.space"
+            }
+        ],
+        "description": "Wordpress content framework",
+        "homepage": "https://github.com/wp-content-framework",
+        "keywords": [
+            "framework",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "wp-content-framework/common",
+        "version": "v0.0.52",
+        "version_normalized": "0.0.52.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wp-content-framework/common.git",
+            "reference": "6c1c9b7d055983d8017dfc81f33c6fab87c81757"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/wp-content-framework/common/zipball/6c1c9b7d055983d8017dfc81f33c6fab87c81757",
+            "reference": "6c1c9b7d055983d8017dfc81f33c6fab87c81757",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6.0"
+        },
+        "require-dev": {
+            "phake/phake": "~2.0",
+            "phpunit/phpunit": "~5.7"
+        },
+        "time": "2019-06-30T18:05:09+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "technote",
+                "email": "technote.space@gmail.com",
+                "homepage": "https://technote.space"
+            }
+        ],
+        "description": "Wordpress content framework",
+        "homepage": "https://github.com/wp-content-framework",
+        "keywords": [
+            "framework",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "matthiasmullie/path-converter",
+        "version": "1.1.2",
+        "version_normalized": "1.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/matthiasmullie/path-converter.git",
+            "reference": "5e4b121c8b9f97c80835c1d878b0812ba1d607c9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/matthiasmullie/path-converter/zipball/5e4b121c8b9f97c80835c1d878b0812ba1d607c9",
+            "reference": "5e4b121c8b9f97c80835c1d878b0812ba1d607c9",
+            "shasum": ""
+        },
+        "require": {
+            "ext-pcre": "*",
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.8"
+        },
+        "time": "2018-10-25T15:19:41+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "MatthiasMullie\\PathConverter\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Matthias Mullie",
+                "email": "pathconverter@mullie.eu",
+                "homepage": "http://www.mullie.eu",
+                "role": "Developer"
+            }
+        ],
+        "description": "Relative path converter",
+        "homepage": "http://github.com/matthiasmullie/path-converter",
+        "keywords": [
+            "converter",
+            "path",
+            "paths",
+            "relative"
+        ]
+    },
+    {
+        "name": "matthiasmullie/minify",
+        "version": "1.3.61",
+        "version_normalized": "1.3.61.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/matthiasmullie/minify.git",
+            "reference": "d5acb8ce5b6acb7d11bafe97cecc533f6e4fd751"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/matthiasmullie/minify/zipball/d5acb8ce5b6acb7d11bafe97cecc533f6e4fd751",
+            "reference": "d5acb8ce5b6acb7d11bafe97cecc533f6e4fd751",
+            "shasum": ""
+        },
+        "require": {
+            "ext-pcre": "*",
+            "matthiasmullie/path-converter": "~1.1",
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "friendsofphp/php-cs-fixer": "~2.0",
+            "matthiasmullie/scrapbook": "~1.0",
+            "phpunit/phpunit": "~4.8"
+        },
+        "suggest": {
+            "psr/cache-implementation": "Cache implementation to use with Minify::cache"
+        },
+        "time": "2018-11-26T23:10:39+00:00",
+        "bin": [
+            "bin/minifycss",
+            "bin/minifyjs"
+        ],
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "MatthiasMullie\\Minify\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Matthias Mullie",
+                "email": "minify@mullie.eu",
+                "homepage": "http://www.mullie.eu",
+                "role": "Developer"
+            }
+        ],
+        "description": "CSS & JavaScript minifier, in PHP. Removes whitespace, strips comments, combines files (incl. @import statements and small assets in CSS files), and optimizes/shortens a few common programming patterns.",
+        "homepage": "http://www.minifier.org",
+        "keywords": [
+            "JS",
+            "css",
+            "javascript",
+            "minifier",
+            "minify"
+        ]
+    },
+    {
+        "name": "wp-content-framework/presenter",
+        "version": "v0.0.21",
+        "version_normalized": "0.0.21.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wp-content-framework/presenter.git",
+            "reference": "a78e2b2d516120b95c1f403e30985f9132a5942b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/wp-content-framework/presenter/zipball/a78e2b2d516120b95c1f403e30985f9132a5942b",
+            "reference": "a78e2b2d516120b95c1f403e30985f9132a5942b",
+            "shasum": ""
+        },
+        "require": {
+            "matthiasmullie/minify": "^1.3",
+            "php": ">=5.6.0"
+        },
+        "time": "2019-05-15T16:01:07+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "technote",
+                "email": "technote.space@gmail.com",
+                "homepage": "https://technote.space"
+            }
+        ],
+        "description": "Wordpress content framework",
+        "homepage": "https://github.com/wp-content-framework",
+        "keywords": [
+            "framework",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "wp-content-framework/update",
+        "version": "v0.0.8",
+        "version_normalized": "0.0.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wp-content-framework/update.git",
+            "reference": "470b95036dd2c155c1aceb0a5fc719b05e0bdede"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/wp-content-framework/update/zipball/470b95036dd2c155c1aceb0a5fc719b05e0bdede",
+            "reference": "470b95036dd2c155c1aceb0a5fc719b05e0bdede",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6.0",
+            "wp-content-framework/presenter": "~0.0.1"
+        },
+        "time": "2019-06-01T19:12:39+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "technote",
+                "email": "technote.space@gmail.com",
+                "homepage": "https://technote.space"
+            }
+        ],
+        "description": "Wordpress content framework",
+        "homepage": "https://github.com/wp-content-framework",
+        "keywords": [
+            "framework",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "technote/gutenberg-package-versions",
+        "version": "v0.1.13",
+        "version_normalized": "0.1.13.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/technote-space/gutenberg-package-versions.git",
+            "reference": "016cd955f03b69c3256325370a21998d7ed9948c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/technote-space/gutenberg-package-versions/zipball/016cd955f03b69c3256325370a21998d7ed9948c",
+            "reference": "016cd955f03b69c3256325370a21998d7ed9948c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+            "php-coveralls/php-coveralls": "^2.1",
+            "phpcompatibility/phpcompatibility-wp": "*",
+            "phpmd/phpmd": "^2.6",
+            "phpunit/phpunit": "^4.8 || ^5.7 || ^6.5",
+            "roave/security-advisories": "dev-master",
+            "squizlabs/php_codesniffer": "*",
+            "wp-coding-standards/wpcs": "*"
+        },
+        "time": "2019-07-13T17:21:41+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Technote\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Technote",
+                "email": "technote.space@gmail.com",
+                "homepage": "https://technote.space"
+            }
+        ],
+        "description": "gutenberg package versions",
+        "homepage": "https://github.com/technote-space/gutenberg-package-versions",
+        "keywords": [
+            "gutenberg",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "technote/gutenberg-packages",
+        "version": "v0.1.6",
+        "version_normalized": "0.1.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/technote-space/gutenberg-packages.git",
+            "reference": "5213dfe8c8d915dc56ddc004d86492514080b609"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/technote-space/gutenberg-packages/zipball/5213dfe8c8d915dc56ddc004d86492514080b609",
+            "reference": "5213dfe8c8d915dc56ddc004d86492514080b609",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6",
+            "technote/gutenberg-package-versions": "^0.1.8"
+        },
+        "require-dev": {
+            "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+            "php-coveralls/php-coveralls": "^2.1",
+            "phpcompatibility/phpcompatibility-wp": "*",
+            "phpmd/phpmd": "^2.6",
+            "phpunit/phpunit": "^4.8 || ^5.7 || ^6.5",
+            "roave/security-advisories": "dev-master",
+            "squizlabs/php_codesniffer": "*",
+            "wp-coding-standards/wpcs": "*"
+        },
+        "time": "2019-07-12T17:53:18+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Technote\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Technote",
+                "email": "technote.space@gmail.com",
+                "homepage": "https://technote.space"
+            }
+        ],
+        "description": "Library to get gutenberg package info",
+        "homepage": "https://github.com/technote-space/gutenberg-packages",
+        "keywords": [
+            "gutenberg",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "wp-content-framework/editor",
+        "version": "v0.0.7",
+        "version_normalized": "0.0.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wp-content-framework/editor.git",
+            "reference": "0052a2755c857fce0fd7496cd5d23079b5325ceb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/wp-content-framework/editor/zipball/0052a2755c857fce0fd7496cd5d23079b5325ceb",
+            "reference": "0052a2755c857fce0fd7496cd5d23079b5325ceb",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6.0",
+            "technote/gutenberg-packages": "^0.1.5"
+        },
+        "require-dev": {
+            "phake/phake": "~2.0",
+            "phpunit/phpunit": "~5.7"
+        },
+        "time": "2019-07-10T15:03:24+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "technote",
+                "email": "technote.space@gmail.com",
+                "homepage": "https://technote.space"
+            }
+        ],
+        "description": "Wordpress content framework",
+        "homepage": "https://github.com/wp-content-framework",
+        "keywords": [
+            "framework",
+            "wordpress"
+        ]
+    }
+]
